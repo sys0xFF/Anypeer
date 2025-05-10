@@ -1,7 +1,7 @@
 {
   "name": "anypeer",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"

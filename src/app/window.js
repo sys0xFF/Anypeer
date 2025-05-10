@@ -1,23 +1,22 @@
-const { create } = require('domain');
-const { app, BrowserWindow } = require('electron');
+const { BrowserWindow } = require('electron');
 const path = require('path');
 
-function createWindow () {
+function createMainWindow() {
+    console.log('Creating main window');
     const win = new BrowserWindow({
         width: 1000,
         height: 700,
         webPreferences: {
-            preload: path.join(__dirname, '../preload.js'),
+            preload: path.join(__dirname, '../proload.js'),
             nodeIntegration: true,
-            contextIsolation: false,
+            contextIsolation: false,    
         },
     });
 
-    win.loadFile(path.join(__dirname, '../public/index.html'));
-
-    return win;
+    win.loadFile(path.join(__dirname, '../../public/ui/remote.html'));
+    return win; 
 }
 
 module.exports = {
-    createWindow,
+    createMainWindow,
 };
