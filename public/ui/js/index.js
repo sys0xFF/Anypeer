@@ -1,4 +1,13 @@
- // Make navigation buttons functional
+window.electronAPI = require ? require('electron').ipcRenderer : window.electronAPI;
+
+(async () => {
+  const userCodeEl = document.getElementById('user-code');
+  if (window.electronAPI?.invoke) {
+    const peerId = await window.electronAPI.invoke('get-peer-id');
+    userCodeEl.textContent = peerId;
+  }
+})();
+
         document.querySelectorAll('.nav-btn').forEach(btn => {
             btn.addEventListener('click', function() {
                 document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
