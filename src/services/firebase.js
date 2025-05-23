@@ -24,7 +24,7 @@ function setFirebaseSession(id, data) {
 
 async function resolvePeerId(id) {
   const snapshot = await get(ref(db, `session/${id}`));
-  if (!snapshot.exists()) throw new Error("Código não encontrado");
+  if (!snapshot.exists()) throw new Error("Code not found");
   return snapshot.val(); 
 }
 
