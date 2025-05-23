@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../public/ui/css/remote.css">
 </head>
 <body>
-    <!-- Header -->
+    
     <div class="header glass">
         <div class="page-title">Any<span>Peer</span> - Remote Control</div>
         <div class="connection-info">
@@ -18,14 +18,14 @@
         </div>
     </div>
 
-    <!-- Main Content -->
+    
     <div class="main-content">
-        <!-- Remote Screen -->
+       
         <div class="remote-screen">
             <canvas id="screenCanvas" class="screen-canvas" width="1280" height="720"></canvas>
         </div>
 
-        <!-- Controls -->
+        
         <div class="controls-container glass">
             <div class="control-group">
                 <div class="control-item">
@@ -62,12 +62,12 @@
             </div>
         </div>
 
-        <!-- Fullscreen Button -->
+        
         <button class="btn-icon fullscreen-btn glass" id="fullscreenBtn" title="Toggle Fullscreen">
             🔍
         </button>
 
-        <!-- Quality Selector -->
+       
         <div class="quality-selector glass">
             <div class="quality-label">Quality:</div>
             <select class="quality-select" id="qualitySelect">
@@ -78,18 +78,12 @@
             </select>
         </div>
 
-        <!-- Status Bar -->
+        
         <div class="status-bar glass">
-            <div class="status-item">
-                <i>📊</i> FPS: 30
-            </div>
-            <div class="status-item">
-                <i>📶</i> Latency: 45ms
-            </div>
-            <div class="status-item">
-                <i>📈</i> Data: 1.2 MB/s
-            </div>
-        </div>
+        <div class="status-item status-item-fps">📊 FPS: 0</div>
+        <div class="status-item status-item-latency">📶 Latency: 0ms</div>
+        <div class="status-item status-item-bandwidth">📈 Data: 0 MB/s</div>
+</div>
     </div>
 
     <script src="../../public/ui/js/remote.js"></script>

@@ -7,13 +7,12 @@ function createMainWindow() {
         width: 1000,
         height: 700,
         webPreferences: {
-            preload: path.join(__dirname, '../proload.js'),
+            preload: path.join(__dirname, '../preload.js'),
             nodeIntegration: true,
             contextIsolation: false,    
         },
     });
-
-    win.loadFile(path.join(__dirname, '../../public/ui/remote.html'));
+    win.loadFile(path.join(__dirname, '../../public/ui/index.html'));
     return win; 
 }
 

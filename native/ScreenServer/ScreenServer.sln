@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenServer", "ScreenServer.csproj", "{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E9C27C2-793B-41DC-A21B-82935713C9B5}
+	EndGlobalSection
+EndGlobal

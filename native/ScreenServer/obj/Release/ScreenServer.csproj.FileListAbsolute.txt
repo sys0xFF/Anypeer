@@ -1,0 +1,7 @@
+C:\anypeer\native\ScreenServer\bin\Release\ScreenServer.exe.config
+C:\anypeer\native\ScreenServer\bin\Release\ScreenServer.exe
+C:\anypeer\native\ScreenServer\bin\Release\ScreenServer.pdb
+C:\anypeer\native\ScreenServer\obj\Release\ScreenServer.csproj.AssemblyReference.cache
+C:\anypeer\native\ScreenServer\obj\Release\ScreenServer.csproj.CoreCompileInputs.cache
+C:\anypeer\native\ScreenServer\obj\Release\ScreenServer.exe
+C:\anypeer\native\ScreenServer\obj\Release\ScreenServer.pdb

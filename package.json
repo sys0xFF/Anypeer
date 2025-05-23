@@ -1,16 +1,40 @@
 {
   "name": "anypeer",
+  "productName": "AnyPeer",
   "version": "1.0.0",
+  "description": "A remote control tool built with Electron.",
   "main": "src/main.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Anthony",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "^36.2.0"
+    "@electron-forge/cli": "^6.0.0-beta.61",
+    "@electron-forge/maker-deb": "^6.0.0-beta.61",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.61",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.61",
+    "@electron-forge/maker-zip": "^6.0.0-beta.61",
+    "electron": "^28.2.3"
+  },
+  "dependencies": {
+    "firebase": "^11.7.1",
+    "unique-names-generator": "^4.7.1",
+    "winreg": "^1.2.5"
+  },
+  "config": {
+    "forge": {
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "anypeer"
+          }
+        }
+      ]
+    }
   }
 }

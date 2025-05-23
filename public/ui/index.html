@@ -7,13 +7,23 @@
     <link rel="stylesheet" href="../../public/ui/css/index.css">
 </head>
 <body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-particle" style="width: 300px; height: 300px; top: -150px; left: 10%;"></div>
+        <div class="bg-particle" style="width: 200px; height: 200px; bottom: -100px; right: 15%;"></div>
+        <div class="bg-particle" style="width: 250px; height: 250px; top: 40%; right: -100px;"></div>
+    </div>
+
     <!-- Main Content -->
     <div class="main-content">
         <div class="header">
             <div class="page-title">Any<span>Peer</span></div>
             <div class="header-actions">
                 <div class="user-profile">
-                    <div class="user-avatar">JD</div>
+                    <div class="user-avatar">
+                        JD
+                        <div class="user-status"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -25,25 +35,6 @@
             <div class="copy-hint">(Click to copy)</div>
         </div>
 
-        <!-- Navigation -->
-        <div class="nav-buttons">
-            <button class="nav-btn active">
-                <i>📊</i> Dashboard
-            </button>
-            <button class="nav-btn">
-                <i>🔗</i> Connections
-            </button>
-            <button class="nav-btn">
-                <i>📁</i> File Transfer
-            </button>
-            <button class="nav-btn">
-                <i>💬</i> Chat
-            </button>
-            <button class="nav-btn">
-                <i>⚙️</i> Settings
-            </button>
-        </div>
-
         <!-- Quick Connect -->
         <div class="quick-connect glass">
             <div class="section-title">
@@ -52,46 +43,39 @@
             </div>
             <div class="connect-form">
                 <input type="text" class="connect-input" placeholder="Enter ID or IP address">
-                <button class="btn btn-primary pulse">
+                <button class="btn btn-primary pulse" id="connectBtn">
                     <i>🔗</i>
                     Connect
                 </button>
             </div>
         </div>
 
-        <!-- Stats -->
-        <div class="dashboard-grid">
-            <div class="stat-card glass">
-                <div class="stat-header">
-                    <div class="stat-title">Active Connections</div>
-                    <div class="stat-icon" style="background: rgba(108, 92, 231, 0.2); color: var(--accent);">
-                        🔗
-                    </div>
-                </div>
-                <div class="stat-value">3</div>
-                <div class="stat-description">Current active connections</div>
+        <!-- Server Configuration -->
+        <div class="server-config glass">
+            <div class="section-title">
+                <i>🖥️</i>
+                Server Configuration
             </div>
-
-            <div class="stat-card glass">
-                <div class="stat-header">
-                    <div class="stat-title">Data Transferred</div>
-                    <div class="stat-icon" style="background: rgba(0, 214, 143, 0.2); color: var(--success);">
-                        📊
-                    </div>
+            <div class="config-form">
+                <div class="config-group">
+                    <div class="config-label">IP Address</div>
+                    <input type="text" id="ipInput" class="config-input" placeholder="e.g. 192.168.1.100">
                 </div>
-                <div class="stat-value">1.2 GB</div>
-                <div class="stat-description">Total data transferred today</div>
-            </div>
-
-            <div class="stat-card glass">
-                <div class="stat-header">
-                    <div class="stat-title">Connection Time</div>
-                    <div class="stat-icon" style="background: rgba(255, 170, 0, 0.2); color: var(--warning);">
-                        ⏱️
-                    </div>
+                
+                <div class="config-group">
+                    <div class="config-label">Port</div>
+                    <input type="text" id="portInput" class="config-input" placeholder="e.g. 8080">
                 </div>
-                <div class="stat-value">4h 32m</div>
-                <div class="stat-description">Total connection time today</div>
+                
+                <button id="listenBtn" class="btn btn-disabled">
+                    <i>📡</i>
+                    Start Listening
+                </button>
+                
+                <div id="listeningStatus" class="listening-status">
+                    <div class="status-dot"></div>
+                    Not Listening
+                </div>
             </div>
         </div>
 
@@ -99,116 +83,22 @@
         <div class="connections glass">
             <div class="connections-header">
                 <div class="section-title" style="margin-bottom: 0;">
-                    <i>💻</i>
+                    <i>📡</i>
                     Recent Connections
                 </div>
             </div>
             <div class="connections-list">
-                <div class="connection-item">
-                    <div class="connection-info">
-                        <div class="connection-icon">💻</div>
-                        <div class="connection-details">
-                            <div class="connection-name">Development Server</div>
-                            <div class="connection-id">192.168.1.105</div>
-                        </div>
-                    </div>
-                    <div class="connection-actions">
-                        <button class="action-btn primary">
-                            🔗
-                        </button>
-                        <button class="action-btn">
-                            📁
-                        </button>
-                        <button class="action-btn">
-                            💬
-                        </button>
-                    </div>
-                </div>
-
-                <div class="connection-item">
-                    <div class="connection-info">
-                        <div class="connection-icon">🖥️</div>
-                        <div class="connection-details">
-                            <div class="connection-name">Marketing Workstation</div>
-                            <div class="connection-id">192.168.1.120</div>
-                        </div>
-                    </div>
-                    <div class="connection-actions">
-                        <button class="action-btn primary">
-                            🔗
-                        </button>
-                        <button class="action-btn">
-                            📁
-                        </button>
-                        <button class="action-btn">
-                            💬
-                        </button>
-                    </div>
-                </div>
-
-                <div class="connection-item">
-                    <div class="connection-info">
-                        <div class="connection-icon">📱</div>
-                        <div class="connection-details">
-                            <div class="connection-name">Mobile Test Device</div>
-                            <div class="connection-id">192.168.1.135</div>
-                        </div>
-                    </div>
-                    <div class="connection-actions">
-                        <button class="action-btn primary">
-                            🔗
-                        </button>
-                        <button class="action-btn">
-                            📁
-                        </button>
-                        <button class="action-btn">
-                            💬
-                        </button>
-                    </div>
-                </div>
-
-                <div class="connection-item">
-                    <div class="connection-info">
-                        <div class="connection-icon">🖥️</div>
-                        <div class="connection-details">
-                            <div class="connection-name">Design Workstation</div>
-                            <div class="connection-id">192.168.1.140</div>
-                        </div>
-                    </div>
-                    <div class="connection-actions">
-                        <button class="action-btn primary">
-                            🔗
-                        </button>
-                        <button class="action-btn">
-                            📁
-                        </button>
-                        <button class="action-btn">
-                            💬
-                        </button>
-                    </div>
-                </div>
-
-                <div class="connection-item">
-                    <div class="connection-info">
-                        <div class="connection-icon">💻</div>
-                        <div class="connection-details">
-                            <div class="connection-name">Production Server</div>
-                            <div class="connection-id">10.0.0.15</div>
-                        </div>
-                    </div>
-                    <div class="connection-actions">
-                        <button class="action-btn primary">
-                            🔗
-                        </button>
-                        <button class="action-btn">
-                            📁
-                        </button>
-                        <button class="action-btn">
-                            💬
-                        </button>
-                    </div>
-                </div>
+         
             </div>
+        </div>
+    </div>
+
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Establishing Connection...</div>
+        <div class="loading-subtext">Connecting to remote device. This may take a few moments.</div>
+        <div class="loading-progress">
+            <div class="loading-progress-bar" id="progressBar"></div>
         </div>
     </div>
     <script src="../../public/ui/js/index.js"></script>
