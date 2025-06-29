@@ -5,3 +5,14 @@ C:\anypeer\native\ScreenServer\obj\Release\ScreenServer.csproj.AssemblyReference
 C:\anypeer\native\ScreenServer\obj\Release\ScreenServer.csproj.CoreCompileInputs.cache
 C:\anypeer\native\ScreenServer\obj\Release\ScreenServer.exe
 C:\anypeer\native\ScreenServer\obj\Release\ScreenServer.pdb
+C:\Users\antho\Desktop\Anypeer\native\ScreenServer\bin\Release\ScreenServer.exe.config
+C:\Users\antho\Desktop\Anypeer\native\ScreenServer\bin\Release\ScreenServer.exe
+C:\Users\antho\Desktop\Anypeer\native\ScreenServer\bin\Release\ScreenServer.pdb
+C:\Users\antho\Desktop\Anypeer\native\ScreenServer\bin\Release\Newtonsoft.Json.dll
+C:\Users\antho\Desktop\Anypeer\native\ScreenServer\bin\Release\Newtonsoft.Json.xml
+C:\Users\antho\Desktop\Anypeer\native\ScreenServer\obj\Release\ScreenServer.csproj.AssemblyReference.cache
+C:\Users\antho\Desktop\Anypeer\native\ScreenServer\obj\Release\ScreenServer.exe.config
+C:\Users\antho\Desktop\Anypeer\native\ScreenServer\obj\Release\ScreenServer.csproj.CoreCompileInputs.cache
+C:\Users\antho\Desktop\Anypeer\native\ScreenServer\obj\Release\ScreenSe.01C2501B.Up2Date
+C:\Users\antho\Desktop\Anypeer\native\ScreenServer\obj\Release\ScreenServer.exe
+C:\Users\antho\Desktop\Anypeer\native\ScreenServer\obj\Release\ScreenServer.pdb

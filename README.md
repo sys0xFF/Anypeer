@@ -34,8 +34,8 @@ This project is a full-stack implementation of a cross-platform remote control a
 
 This is a work in progress. The following features are under active development:
 
-- [ ] Remote mouse control (relative and absolute positioning)
-- [ ] Keyboard input simulation (key press and release)
+- [x] Remote mouse control (relative and absolute positioning)
+- [x] Keyboard input simulation (key press and release)
 - [ ] Optional audio streaming (PCM or compressed format)
 - [ ] Session control panel with logs and activity
 - [ ] Build pipeline with installer

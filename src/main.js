@@ -181,6 +181,80 @@ async function checkIfAlreadyListening() {
   });
 }
 
+// ------------------ Control Commands ------------------
+
+ipcMain.handle('send-mouse-move', (event, x, y) => {
+  const { sendControlCommand } = require('./services/socketClient');
+  return sendControlCommand(1, { // MessageType.MouseMove
+    Type: 1,
+    Data: { X: Math.round(x), Y: Math.round(y) }
+  });
+});
+
+ipcMain.handle('send-mouse-click', (event, x, y, button) => {
+  const { sendControlCommand } = require('./services/socketClient');
+  return sendControlCommand(2, { // MessageType.MouseClick
+    Type: 2,
+    Data: { X: Math.round(x), Y: Math.round(y), Button: button }
+  });
+});
+
+ipcMain.handle('send-mouse-down', (event, x, y, button) => {
+  const { sendControlCommand } = require('./services/socketClient');
+  return sendControlCommand(3, { // MessageType.MouseDown
+    Type: 3,
+    Data: { X: Math.round(x), Y: Math.round(y), Button: button }
+  });
+});
+
+ipcMain.handle('send-mouse-up', (event, x, y, button) => {
+  const { sendControlCommand } = require('./services/socketClient');
+  return sendControlCommand(4, { // MessageType.MouseUp
+    Type: 4,
+    Data: { X: Math.round(x), Y: Math.round(y), Button: button }
+  });
+});
+
+ipcMain.handle('send-mouse-wheel', (event, delta) => {
+  const { sendControlCommand } = require('./services/socketClient');
+  return sendControlCommand(5, { // MessageType.MouseWheel
+    Type: 5,
+    Data: { WheelDelta: delta }
+  });
+});
+
+ipcMain.handle('send-key-down', (event, key) => {
+  const { sendControlCommand } = require('./services/socketClient');
+  return sendControlCommand(6, { // MessageType.KeyDown
+    Type: 6,
+    Data: { Key: key }
+  });
+});
+
+ipcMain.handle('send-key-up', (event, key) => {
+  const { sendControlCommand } = require('./services/socketClient');
+  return sendControlCommand(7, { // MessageType.KeyUp
+    Type: 7,
+    Data: { Key: key }
+  });
+});
+
+ipcMain.handle('send-key-press', (event, key) => {
+  const { sendControlCommand } = require('./services/socketClient');
+  return sendControlCommand(8, { // MessageType.KeyPress
+    Type: 8,
+    Data: { Key: key }
+  });
+});
+
+ipcMain.handle('send-type-text', (event, text) => {
+  const { sendControlCommand } = require('./services/socketClient');
+  return sendControlCommand(9, { // MessageType.TypeText
+    Type: 9,
+    Data: { Text: text }
+  });
+});
+
 // ------------------ Utils ------------------
 
 function generateRandomName() {

@@ -6,13 +6,13 @@ const { initializeApp } = require('firebase/app');
 const { getDatabase, ref, set, get } = require('firebase/database');
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAjitoFgwgB5EIPgQrcD8rE5fvKGjkf4dA",
-  authDomain: "anypeer-firebase.firebaseapp.com",
-  databaseURL: "https://anypeer-firebase-default-rtdb.firebaseio.com",
-  projectId: "anypeer-firebase",
-  storageBucket: "anypeer-firebase.firebasestorage.app",
-  messagingSenderId: "405852966333",
-  appId: "1:405852966333:web:06eea0000ccaa094c356d4"
+  apiKey: "AIzaSyDMhRJMQkhcgUUAzsdD4JDj4Z6KlK9ivWs",
+  authDomain: "nbome-61c7b.firebaseapp.com",
+  databaseURL: "https://nbome-61c7b-default-rtdb.firebaseio.com",
+  projectId: "nbome-61c7b",
+  storageBucket: "nbome-61c7b.firebasestorage.app",
+  messagingSenderId: "445214489648",
+  appId: "1:445214489648:web:a87285ad3198ea13e441f5"
 };
 
 const app = initializeApp(firebaseConfig);

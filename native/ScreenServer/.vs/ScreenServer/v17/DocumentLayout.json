@@ -1,24 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\anypeer\\native\\ScreenServer\\",
+  "WorkspaceRootPath": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\",
   "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|c:\\anypeer\\native\\screenserver\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|solutionrelative:clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|c:\\anypeer\\native\\screenserver\\screencapturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|solutionrelative:screencapturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|c:\\anypeer\\native\\screenserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ScreenServer||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|c:\\anypeer\\native\\screenserver\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|c:\\users\\antho\\desktop\\anypeer\\native\\screenserver\\messageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|solutionrelative:messageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|c:\\users\\antho\\desktop\\anypeer\\native\\screenserver\\inputsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|solutionrelative:inputsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|c:\\users\\antho\\desktop\\anypeer\\native\\screenserver\\clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|solutionrelative:clienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\screencapturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|solutionrelative:screencapturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDADF7E0-5CFB-4F5E-AFD5-FCE23C7EEDB4}|ScreenServer.csproj|c:\\users\\antho\\desktop\\anypeer\\native\\screenserver\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,24 +40,50 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "MessageProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\MessageProcessor.cs",
+              "RelativeDocumentMoniker": "MessageProcessor.cs",
+              "ToolTip": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\MessageProcessor.cs",
+              "RelativeToolTip": "MessageProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:50:14.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputSimulator.cs",
+              "DocumentMoniker": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\InputSimulator.cs",
+              "RelativeDocumentMoniker": "InputSimulator.cs",
+              "ToolTip": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\InputSimulator.cs",
+              "RelativeToolTip": "InputSimulator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:50:12.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ScreenServer",
-              "DocumentMoniker": "C:\\anypeer\\native\\ScreenServer\\ScreenServer.csproj",
+              "DocumentMoniker": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\ScreenServer.csproj",
               "RelativeDocumentMoniker": "ScreenServer.csproj",
-              "ToolTip": "C:\\anypeer\\native\\ScreenServer\\ScreenServer.csproj*",
-              "RelativeToolTip": "ScreenServer.csproj*",
+              "ToolTip": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\ScreenServer.csproj",
+              "RelativeToolTip": "ScreenServer.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-14T13:54:44.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ScreenCapturer.cs",
-              "DocumentMoniker": "C:\\anypeer\\native\\ScreenServer\\ScreenCapturer.cs",
+              "DocumentMoniker": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\ScreenCapturer.cs",
               "RelativeDocumentMoniker": "ScreenCapturer.cs",
-              "ToolTip": "C:\\anypeer\\native\\ScreenServer\\ScreenCapturer.cs*",
-              "RelativeToolTip": "ScreenCapturer.cs*",
+              "ToolTip": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\ScreenCapturer.cs",
+              "RelativeToolTip": "ScreenCapturer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T13:52:03.886Z",
@@ -57,25 +91,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ClientHandler.cs",
-              "DocumentMoniker": "C:\\anypeer\\native\\ScreenServer\\ClientHandler.cs",
+              "DocumentMoniker": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\ClientHandler.cs",
               "RelativeDocumentMoniker": "ClientHandler.cs",
-              "ToolTip": "C:\\anypeer\\native\\ScreenServer\\ClientHandler.cs*",
-              "RelativeToolTip": "ClientHandler.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\ClientHandler.cs",
+              "RelativeToolTip": "ClientHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T13:51:54.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\anypeer\\native\\ScreenServer\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\anypeer\\native\\ScreenServer\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
+              "ToolTip": "C:\\Users\\antho\\Desktop\\Anypeer\\native\\ScreenServer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T13:44:10.152Z",
